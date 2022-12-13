@@ -2,7 +2,7 @@
 
 /**
  *_islower - checks for lowercase characters
- *
+ *@c: an integer
  *Return: nothing
  */
 
