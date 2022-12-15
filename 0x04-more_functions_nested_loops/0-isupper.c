@@ -2,6 +2,7 @@
 
 /**
  *_isupper - checks for upper case characters
+ *@c: an integer
  *Return: 1 (success)
  */
 
