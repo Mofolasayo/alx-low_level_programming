@@ -1,5 +1,5 @@
 #include "main.h"
-/**                                                                                                                                    
+/**
  *_strlen - return the length of a string
  *@s: pointer to a char
  *Return: i (length of the string)
@@ -10,12 +10,13 @@ int i;
 i = 0;
 while (s[i] != '\0')
 {
-i++; 
+i++;
 }
-return (i); 
+return (i);
 }
+
 /**
- *_puts - imitiates the puts function by printing a string followed by a new line
+ *_puts - imitiates function puts by printing a string followed by a new line
  *@str: a pointer to a string
  *Return: nothing
  */
