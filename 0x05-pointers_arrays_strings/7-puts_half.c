@@ -36,7 +36,7 @@ _putchar(str[i]);
 else if (_strlen(str) % 2 != 0)
 {
 int i;
-for (i = (_strlen(str) -1) / 2; i < _strlen(str) ; i ++)
+for (i = (_strlen(str) - 1) / 2; i < _strlen(str) ; i++)
 {
 _putchar(str[i]);
 }
