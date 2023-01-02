@@ -18,7 +18,7 @@ return (i);
 }
 
 /**
- *strncat - concatenates two strings using at most n bytes from src
+ *_strncat - concatenates two strings using at most n bytes from src
  *@dest: the destination string
  *@src: the source string
  *@n: number of bytes from src
@@ -31,7 +31,7 @@ int i, j;
 j = _strlen(dest);
 for (i = 0; i < n && src[i] != '\0'; i++)
 {
-dest[j + i] =src[i];
+dest[j + i] = src[i];
 }
 return (dest);
 }
