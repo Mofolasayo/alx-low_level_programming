@@ -28,11 +28,10 @@ char *_strcat(char *dest, char *src)
 int i, j;
 i = 0;
 j = _strlen(dest);
-while (dest[i] != '\0')
+while (src[i] != '\0')
 {
-dest[j] = src[i];
+dest[j + i] = src[i];
 i++;
-j++;
 }
 return (dest);
 }
