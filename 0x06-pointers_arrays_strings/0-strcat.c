@@ -25,8 +25,8 @@ return (i);
 
 char *_strcat(char *dest, char *src)
 {
-int i;
-int j;
+int i, j;
+i = 0;
 j = _strlen(dest);
 while (dest[i] != '\0')
 {
