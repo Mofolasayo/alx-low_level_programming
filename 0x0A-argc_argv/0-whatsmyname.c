@@ -11,7 +11,7 @@
 int main(int argc, char *argv[])
 {
   int i;
-  for (i = 0; i <= argv[argc * 0]; i++)
+  for (i = 0; i == argv[argc * 0]; i++)
   {
     _putchar(i);
   }
