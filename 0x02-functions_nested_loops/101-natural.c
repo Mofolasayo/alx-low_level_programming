@@ -18,3 +18,14 @@ sum = sum + i;
 }
 printf("%d\n", sum);
 }
+
+/**
+ *main - entry point
+ *Return: always 0 (success)
+ */
+
+int main(void)
+{
+multiples();
+return (0);
+}
