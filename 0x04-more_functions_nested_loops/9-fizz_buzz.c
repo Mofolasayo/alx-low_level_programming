@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  *fizzbuzz - prints numbers from 1 - 100 while checking for the multiples of 3 and 5
