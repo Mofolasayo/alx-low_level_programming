@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 /**
- *fizzbuzz - prints numbers from 1 - 100 while checking for the multiples of 3 and 5
+ *fizzbuzz - prints numbers from 1 - 100 
+ *  multiples of three prints fizz
+ *  multiples of 5 prints buzz
+ *  multiples of both prints out fizzbuzz
  *Return: nothing
  */
 
@@ -12,18 +15,26 @@ for (i = 1; i <= 100; i++)
 {
 if (i % 3 == 0 && i % 5 == 0)
 {
-printf("FizzBuzz ");
+printf("FizzBuzz");
 }
 else if (i % 3 == 0)
 {
-printf("Fizz ");
+printf("Fizz");
 }
 else if (i % 5 == 0)
 {
-printf("Buzz ");
+printf("Buzz");
 }
 else
-printf("%d ", i);
+{
+printf("%d", i);
+}
+if (i != 100)
+{
+printf(" ");
+}
+else
+printf("\n");
 }
 }
 
